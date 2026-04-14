@@ -1,6 +1,6 @@
 # 🛡️ Am I Being Scammed? — Free AI Scam Checker
 
-**Built by [Zenikhon Tech](https://ko-fi.com/zenikhontech)**
+**Built by Khobie Maseko for [Zenikhon Tech](https://ko-fi.com/zenikhontech)**
 
 A free, AI-powered scam detection tool that helps everyday people identify fraudulent messages, emails, job offers, and texts in seconds. No account required. No cost to users. Built with efficiency in mind.
 
