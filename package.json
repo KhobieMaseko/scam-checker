@@ -1,0 +1,9 @@
+{
+  "name": "scam-checker",
+  "version": "1.0.0",
+  "description": "Am I Being Scammed? - AI-powered scam detection tool",
+  "dependencies": {
+    "groq-sdk": "^0.9.1",
+    "@supabase/supabase-js": "^2.49.1"
+  }
+}
