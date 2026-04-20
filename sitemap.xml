@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://scam-checker.netlify.app/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://scam-checker.netlify.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://scam-checker.netlify.app/blog/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://scam-checker.netlify.app/blog/is-this-job-offer-a-scam.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://scam-checker.netlify.app/blog/how-to-tell-if-text-message-is-scam.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://scam-checker.netlify.app/blog/how-to-check-if-email-is-phishing.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://scam-checker.netlify.app/blog/romance-scam-signs.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://scam-checker.netlify.app/blog/is-this-email-from-amazon-real.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://scam-checker.netlify.app/blog/work-from-home-job-offer-red-flags.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://scam-checker.netlify.app/blog/unsolicited-job-offer-linkedin-scam.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://scam-checker.netlify.app/blog/is-western-union-payment-request-a-scam.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
