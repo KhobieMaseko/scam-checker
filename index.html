@@ -31,7 +31,46 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebApplication","name":"Am I Being Scammed?","description":"Free AI-powered scam checker. Paste any suspicious message to get an instant fraud analysis with red flags and action steps.","url":"https://amibeingscammed.netlify.app","applicationCategory":"SecurityApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"creator":{"@type":"Organization","name":"Zenikhon Tech","url":"https://ko-fi.com/zenikhontech"}}
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "name": "Am I Being Scammed?",
+        "description": "Free AI-powered scam checker. Paste any suspicious message to get an instant fraud analysis with red flags and action steps.",
+        "url": "https://scam-checker.netlify.app",
+        "applicationCategory": "SecurityApplication",
+        "operatingSystem": "Web",
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+        "creator": {"@type": "Organization", "name": "Zenikhon Tech", "url": "https://ko-fi.com/zenikhontech"}
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I know if a message is a scam?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Paste the message into our free AI scam checker. It analyses the text for known scam patterns and returns a verdict with specific red flags and action steps within seconds."}
+          },
+          {
+            "@type": "Question",
+            "name": "Is this scam checker really free?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Yes. Am I Being Scammed? is completely free to use with no account required and no usage limits for standard analysis."}
+          },
+          {
+            "@type": "Question",
+            "name": "What types of scams can this tool detect?",
+            "acceptedAnswer": {"@type": "Answer", "text": "The tool detects phishing emails, job scams, romance scams, investment fraud, lottery scams, government impersonation, tech support scams, rental scams, advance-fee fraud, brand impersonation, and social engineering."}
+          },
+          {
+            "@type": "Question",
+            "name": "Is my message stored when I check it?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Only the first 500 characters are anonymously saved to a public scam database. Never paste passwords, bank details, or full personal information."}
+          }
+        ]
+      }
+    ]
+  }
   </script>
   <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
