@@ -411,10 +411,7 @@ footer{background:var(--navy);padding:3rem 1.5rem 2rem;color:rgba(255,255,255,0.
 <!-- ── NAV ── -->
 <nav role="navigation" aria-label="Main navigation">
   <a class="nav-logo" href="#" onclick="showTab('checker',null); window.scrollTo({top:0,behavior:'smooth'}); return false;" aria-label="Am I Being Scammed? — Home">
-    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <path d="M16 2 L28 6 L28 18 C28 24.5 22.5 29.5 16 31 C9.5 29.5 4 24.5 4 18 L4 6 Z" fill="#c0392b"/>
-      <polyline points="10,16 14,20.5 22,12" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
+    <img src="/scam_checker_logo_1.svg" alt="Zenikhon Tech logo" width="32" height="32" style="flex-shrink:0;"/>
     <div class="nav-logo-text">
       <span class="name">Am I Being Scammed?</span>
       <span class="tagline">by Zenikhon Tech</span>
@@ -713,7 +710,89 @@ footer{background:var(--navy);padding:3rem 1.5rem 2rem;color:rgba(255,255,255,0.
   </div>
 </section>
 
+<!-- ── FAQ ── -->
+<section style="background:var(--navy);padding:5rem 1.5rem;" aria-label="Frequently asked questions">
+  <div style="max-width:780px;margin:0 auto;">
+    <div class="section-header light">
+      <h2>Frequently asked <span style="color:#f87171;">questions</span></h2>
+      <p>Everything you need to know about the tool</p>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:1px;border-radius:var(--r-lg);overflow:hidden;border:1px solid rgba(255,255,255,0.1);">
 
+      <details style="background:rgba(255,255,255,0.04);">
+        <summary style="padding:1.25rem 1.5rem;font-size:15px;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:1rem;">
+          How do I know if a message is a scam?
+          <span style="font-size:20px;color:rgba(255,255,255,0.4);flex-shrink:0;transition:transform 0.2s;">+</span>
+        </summary>
+        <div style="padding:0 1.5rem 1.25rem;font-size:14px;color:rgba(255,255,255,0.6);line-height:1.7;border-top:1px solid rgba(255,255,255,0.08);">
+          Paste the message into the checker on this page. The AI analyses the text for known scam patterns and returns a verdict — Scam, Likely Scam, Suspicious, or Likely Safe — along with the specific red flags found in your actual message and the exact steps you should take. The whole process takes under 10 seconds.
+        </div>
+      </details>
+
+      <details style="background:rgba(255,255,255,0.04);">
+        <summary style="padding:1.25rem 1.5rem;font-size:15px;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:1rem;">
+          Is this tool really free?
+          <span style="font-size:20px;color:rgba(255,255,255,0.4);flex-shrink:0;transition:transform 0.2s;">+</span>
+        </summary>
+        <div style="padding:0 1.5rem 1.25rem;font-size:14px;color:rgba(255,255,255,0.6);line-height:1.7;border-top:1px solid rgba(255,255,255,0.08);">
+          Yes, completely. No account required, no credit card, no usage limits for standard analysis. It was built to be free because the people who need it most are often the ones who can least afford to pay. If it has helped you, consider <a href="https://ko-fi.com/zenikhontech" target="_blank" rel="noopener noreferrer" style="color:#f87171;">supporting us on Ko-fi</a> to keep it running.
+        </div>
+      </details>
+
+      <details style="background:rgba(255,255,255,0.04);">
+        <summary style="padding:1.25rem 1.5rem;font-size:15px;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:1rem;">
+          What types of scams can it detect?
+          <span style="font-size:20px;color:rgba(255,255,255,0.4);flex-shrink:0;transition:transform 0.2s;">+</span>
+        </summary>
+        <div style="padding:0 1.5rem 1.25rem;font-size:14px;color:rgba(255,255,255,0.6);line-height:1.7;border-top:1px solid rgba(255,255,255,0.08);">
+          The tool detects phishing emails, job scams, romance scams, investment and crypto fraud, lottery and prize scams, government impersonation, tech support scams, rental scams, advance-fee fraud (419), brand impersonation (Amazon, PayPal, banks), and social engineering. If you paste something that doesn't fit a known category, it will still flag unusual pressure tactics and suspicious language patterns.
+        </div>
+      </details>
+
+      <details style="background:rgba(255,255,255,0.04);">
+        <summary style="padding:1.25rem 1.5rem;font-size:15px;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:1rem;">
+          Is my message stored when I check it?
+          <span style="font-size:20px;color:rgba(255,255,255,0.4);flex-shrink:0;transition:transform 0.2s;">+</span>
+        </summary>
+        <div style="padding:0 1.5rem 1.25rem;font-size:14px;color:rgba(255,255,255,0.6);line-height:1.7;border-top:1px solid rgba(255,255,255,0.08);">
+          Only the first 500 characters are anonymously saved to the public scam database so the community can learn from real examples. Your full message is never stored. Never paste passwords, bank account numbers, ID numbers, or any sensitive personal information into the tool.
+        </div>
+      </details>
+
+      <details style="background:rgba(255,255,255,0.04);">
+        <summary style="padding:1.25rem 1.5rem;font-size:15px;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:1rem;">
+          How accurate is the AI verdict?
+          <span style="font-size:20px;color:rgba(255,255,255,0.4);flex-shrink:0;transition:transform 0.2s;">+</span>
+        </summary>
+        <div style="padding:0 1.5rem 1.25rem;font-size:14px;color:rgba(255,255,255,0.6);line-height:1.7;border-top:1px solid rgba(255,255,255,0.08);">
+          The tool is powered by Llama 3.3 70B via Groq and is highly accurate on common scam types with clear patterns. It is less reliable on very short messages or highly context-dependent situations. Always treat the verdict as a strong starting point for your own judgment — not a final ruling. If in doubt, do not send money or share personal information regardless of what the tool says.
+        </div>
+      </details>
+
+      <details style="background:rgba(255,255,255,0.04);">
+        <summary style="padding:1.25rem 1.5rem;font-size:15px;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:1rem;">
+          Can I look up a phone number or email address?
+          <span style="font-size:20px;color:rgba(255,255,255,0.4);flex-shrink:0;transition:transform 0.2s;">+</span>
+        </summary>
+        <div style="padding:0 1.5rem 1.25rem;font-size:14px;color:rgba(255,255,255,0.6);line-height:1.7;border-top:1px solid rgba(255,255,255,0.08);">
+          Yes. Use the Lookup tab to search an email address, phone number, username, or cryptocurrency wallet address against the ScamSearch.io community database of known reported scammers. A result there is a strong warning sign — no result means it has not been reported yet, which does not guarantee it is safe.
+        </div>
+      </details>
+
+      <details style="background:rgba(255,255,255,0.04);">
+        <summary style="padding:1.25rem 1.5rem;font-size:15px;font-weight:600;color:#fff;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:1rem;">
+          What should I do if I have already been scammed?
+          <span style="font-size:20px;color:rgba(255,255,255,0.4);flex-shrink:0;transition:transform 0.2s;">+</span>
+        </summary>
+        <div style="padding:0 1.5rem 1.25rem;font-size:14px;color:rgba(255,255,255,0.6);line-height:1.7;border-top:1px solid rgba(255,255,255,0.08);">
+          Act quickly. Contact your bank immediately if money was transferred. Report to the <a href="https://reportfraud.ftc.gov" target="_blank" rel="noopener noreferrer" style="color:#f87171;">FTC at reportfraud.ftc.gov</a> (US), <a href="https://www.actionfraud.police.uk" target="_blank" rel="noopener noreferrer" style="color:#f87171;">Action Fraud</a> (UK), or <a href="https://www.scamwatch.gov.au/report-a-scam" target="_blank" rel="noopener noreferrer" style="color:#f87171;">ScamWatch</a> (Australia). If personal information was shared, place a fraud alert with the credit bureaus. Do not send additional money to "recover" what was lost — that is always a secondary scam.
+        </div>
+      </details>
+
+    </div>
+  </div>
+</section>
+  
 <!-- ── GUIDES PREVIEW ── -->
 <section style="background:#fff;padding:5rem 1.5rem;" aria-label="Scam prevention guides">
   <div class="wide-container">
@@ -1111,6 +1190,15 @@ function debounceSearch(){ clearTimeout(searchTimer); dbSearch=document.getEleme
 function verdictLabel(v){ return {scam:'Scam',likely_scam:'Likely scam',suspicious:'Suspicious',likely_safe:'Likely safe'}[v]||v; }
 function escHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 function timeAgo(iso){ const d=(Date.now()-new Date(iso))/1000; if(d<60)return'just now'; if(d<3600)return Math.floor(d/60)+'m ago'; if(d<86400)return Math.floor(d/3600)+'h ago'; return Math.floor(d/86400)+'d ago'; }
+
+// ── FAQs ──────────────────────────────────────────────────────────────────── 
+document.querySelectorAll('details').forEach(d => {
+  d.addEventListener('toggle', () => {
+    const icon = d.querySelector('summary span');
+    if (icon) icon.style.transform = d.open ? 'rotate(45deg)' : '';
+  });
+});
+  
 </script>
 </body>
 </html>
