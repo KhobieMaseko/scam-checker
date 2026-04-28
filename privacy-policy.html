@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EKDHHS4B08"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-EKDHHS4B08');</script>
+  <title>Privacy Policy — Am I Being Scammed? | Zenikhon Tech</title>
+  <meta name="description" content="Privacy policy for Am I Being Scammed? — how we handle your data, what we store, and your rights as a user."/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://scam-checker.netlify.app/privacy-policy.html"/>
+  <meta property="og:title" content="Privacy Policy — Am I Being Scammed?"/>
+  <meta property="og:description" content="How Am I Being Scammed? handles your data, what we store, and your rights as a user."/>
+  <meta property="og:type" content="website"/>
+  <meta name="twitter:card" content="summary"/>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --navy:#0f172a;--navy-mid:#1e293b;--red:#c0392b;--red-light:#fdf0ef;--red-mid:#e8a09a;
+      --green:#1a7a4a;--green-light:#edfaf3;--green-mid:#7ecba1;
+      --kofi:#ff5e5b;
+      --gray-50:#f8f8f6;--gray-100:#f0efed;--gray-200:#e2e1de;--gray-400:#9c9b97;
+      --gray-600:#5c5b58;--gray-700:#3d3c39;--gray-800:#2c2b29;--gray-900:#1a1918;
+      --font:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+      --r-sm:6px;--r-md:10px;--r-lg:16px;--r-xl:24px;
+    }
+    html{scroll-behavior:smooth}
+    body{font-family:var(--font);background:var(--gray-50);color:var(--gray-800);line-height:1.6;-webkit-font-smoothing:antialiased}
+    a{color:var(--red);text-decoration:none}
+    a:hover{text-decoration:underline}
+
+    /* SKIP LINK */
+    .skip-link{position:absolute;top:-40px;left:0;background:var(--red);color:#fff;padding:8px 16px;z-index:9999;border-radius:0 0 var(--r-sm) 0;font-size:14px}
+    .skip-link:focus{top:0}
+
+    /* NAV */
+    nav{background:var(--navy);border-bottom:1px solid rgba(255,255,255,0.08);padding:0 1.5rem;display:flex;align-items:center;gap:1.5rem;height:60px;position:sticky;top:0;z-index:200}
+    .nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0}
+    .nav-logo svg{width:32px;height:32px;flex-shrink:0}
+    .nav-logo-text{display:flex;flex-direction:column;line-height:1.1}
+    .nav-logo-text .name{font-size:19px;font-weight:700;color:#fff;letter-spacing:-0.01em}
+    .nav-logo-text .tagline{font-size:10px;color:rgba(255,255,255,0.45);letter-spacing:0.08em;text-transform:uppercase}
+    .nav-links{display:flex;gap:0.25rem;margin-left:auto;align-items:center}
+    .nav-link{background:none;border:none;font-size:13px;color:rgba(255,255,255,0.6);padding:6px 12px;border-radius:var(--r-sm);transition:all 0.15s;white-space:nowrap;cursor:pointer;text-decoration:none;display:inline-block}
+    .nav-link:hover{color:#fff;background:rgba(255,255,255,0.08);text-decoration:none}
+    .nav-link.active{color:#fff;background:rgba(255,255,255,0.12)}
+    .nav-donate{display:flex;align-items:center;gap:6px;background:var(--kofi);color:#fff;font-size:12px;font-weight:600;padding:7px 14px;border-radius:99px;border:none;text-decoration:none;flex-shrink:0;transition:background 0.15s}
+    .nav-donate:hover{background:#e04f4c;text-decoration:none;color:#fff}
+    .nav-donate svg{width:14px;height:14px;flex-shrink:0}
+
+    /* HERO */
+    .page-hero{background:var(--navy);padding:4rem 1.5rem 3rem;text-align:center;position:relative;overflow:hidden}
+    .page-hero::before{content:'';position:absolute;top:-60px;left:50%;transform:translateX(-50%);width:500px;height:500px;background:radial-gradient(circle,rgba(192,57,43,0.1) 0%,transparent 70%);pointer-events:none}
+    .breadcrumb{font-size:12px;color:rgba(255,255,255,0.4);margin-bottom:1rem;display:flex;align-items:center;justify-content:center;gap:6px;position:relative;z-index:1}
+    .breadcrumb a{color:rgba(255,255,255,0.5);transition:color 0.15s}
+    .breadcrumb a:hover{color:#fff;text-decoration:none}
+    .page-hero h1{font-size:clamp(1.75rem,5vw,3rem);font-weight:800;color:#fff;line-height:1.15;letter-spacing:-0.03em;position:relative;z-index:1}
+    .page-hero .deck{font-size:1rem;color:rgba(255,255,255,0.55);margin-top:0.75rem;position:relative;z-index:1}
+
+    /* CONTENT */
+    .content-wrap{max-width:780px;margin:0 auto;padding:3rem 1.5rem}
+    .last-updated{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--gray-200);border-radius:99px;padding:6px 16px;font-size:12px;color:var(--gray-600);margin-bottom:2.5rem}
+    .last-updated span{font-weight:600;color:var(--gray-800)}
+
+    /* SECTIONS */
+    .policy-section{margin-bottom:2.5rem}
+    .policy-section h2{font-size:1.375rem;font-weight:800;color:var(--navy);letter-spacing:-0.02em;margin-bottom:1rem;padding-bottom:0.75rem;border-bottom:2px solid var(--gray-100)}
+    .policy-section h3{font-size:1rem;font-weight:700;color:var(--navy);margin:1.25rem 0 0.5rem}
+    .policy-section p{font-size:0.9375rem;color:var(--gray-700);line-height:1.75;margin-bottom:1rem}
+    .policy-section ul{margin:0 0 1rem 0;padding-left:0;list-style:none}
+    .policy-section li{font-size:0.9375rem;color:var(--gray-700);line-height:1.7;padding:5px 0 5px 1.25rem;position:relative;border-bottom:1px solid var(--gray-100)}
+    .policy-section li:last-child{border-bottom:none}
+    .policy-section li::before{content:'';position:absolute;left:0;top:14px;width:6px;height:6px;border-radius:50%;background:var(--red)}
+    .policy-section a{color:var(--red);text-decoration:underline;text-underline-offset:2px}
+    .policy-section a:hover{color:#a93226}
+    .policy-section strong{font-weight:700;color:var(--gray-900)}
+
+    /* HIGHLIGHT BOXES */
+    .highlight-box{border-radius:var(--r-md);padding:1.25rem 1.5rem;margin:1.5rem 0;display:flex;gap:12px;align-items:flex-start}
+    .highlight-box.green{background:var(--green-light);border:1.5px solid var(--green-mid)}
+    .highlight-box.red{background:var(--red-light);border:1.5px solid var(--red-mid)}
+    .highlight-box .hb-icon{font-size:1.25rem;flex-shrink:0;margin-top:1px}
+    .highlight-box strong{display:block;font-size:14px;font-weight:700;margin-bottom:4px}
+    .highlight-box.green strong{color:var(--green)}
+    .highlight-box.red strong{color:var(--red)}
+    .highlight-box p{font-size:13px;color:var(--gray-700);margin:0;line-height:1.6}
+
+    /* TABLE */
+    .data-table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:14px}
+    .data-table th{background:var(--navy);color:#fff;padding:10px 14px;text-align:left;font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:0.05em}
+    .data-table td{padding:10px 14px;border-bottom:1px solid var(--gray-200);color:var(--gray-700);vertical-align:top;line-height:1.5}
+    .data-table tr:last-child td{border-bottom:none}
+    .data-table tr:nth-child(even) td{background:#fff}
+    .data-table tr:nth-child(odd) td{background:var(--gray-50)}
+    .data-table-wrap{border:1px solid var(--gray-200);border-radius:var(--r-md);overflow:hidden;margin:1.5rem 0}
+
+    /* CONTACT BOX */
+    .contact-box{background:var(--navy);border-radius:var(--r-xl);padding:2.5rem;text-align:center;margin:3rem 0}
+    .contact-box h3{font-size:1.25rem;font-weight:800;color:#fff;margin-bottom:0.75rem;letter-spacing:-0.02em}
+    .contact-box p{font-size:14px;color:rgba(255,255,255,0.6);max-width:420px;margin:0 auto 1.5rem;line-height:1.6}
+    .contact-btn{display:inline-flex;align-items:center;gap:8px;background:var(--red);color:#fff;font-size:14px;font-weight:600;padding:0.75rem 1.75rem;border-radius:var(--r-lg);text-decoration:none;transition:background 0.15s,transform 0.1s}
+    .contact-btn:hover{background:#a93226;color:#fff;text-decoration:none;transform:translateY(-1px)}
+
+    /* FOOTER */
+    footer{background:var(--navy);padding:3rem 1.5rem 2rem;color:rgba(255,255,255,0.5)}
+    .footer-inner{max-width:1100px;margin:0 auto}
+    .footer-top{display:flex;align-items:flex-start;gap:3rem;flex-wrap:wrap;padding-bottom:2rem;border-bottom:1px solid rgba(255,255,255,0.1);margin-bottom:2rem}
+    .footer-brand{flex:1;min-width:200px}
+    .footer-logo-wrap{display:flex;align-items:center;gap:12px;margin-bottom:1rem}
+    .footer-tagline{font-size:13px;color:rgba(255,255,255,0.45);line-height:1.6;max-width:280px}
+    .footer-links-col{flex:1;min-width:140px}
+    .footer-links-col h4{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:rgba(255,255,255,0.4);margin-bottom:1rem}
+    .footer-links-col a{display:block;font-size:13px;color:rgba(255,255,255,0.55);margin-bottom:8px;transition:color 0.15s}
+    .footer-links-col a:hover{color:#fff;text-decoration:none}
+    .kofi-btn{display:inline-flex;align-items:center;gap:8px;background:var(--kofi);color:#fff;font-size:13px;font-weight:600;padding:10px 18px;border-radius:99px;text-decoration:none;transition:background 0.15s;margin-top:1rem}
+    .kofi-btn:hover{background:#e04f4c;color:#fff;text-decoration:none}
+    .footer-bottom{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+    .footer-copy{font-size:12px;color:rgba(255,255,255,0.3);line-height:1.6}
+    .footer-bottom-links{display:flex;gap:1.25rem;flex-wrap:wrap;align-items:center}
+    .footer-bottom-links a{font-size:12px;color:rgba(255,255,255,0.35);transition:color 0.15s}
+    .footer-bottom-links a:hover{color:rgba(255,255,255,0.7);text-decoration:none}
+
+    /* MOBILE */
+    @media(max-width:768px){
+      nav{padding:0 1rem;gap:0.75rem}
+      .nav-logo-text .tagline{display:none}
+      .nav-links{gap:0}
+      .nav-link{padding:6px 8px;font-size:12px}
+      .nav-donate span{display:none}
+      .page-hero{padding:2.5rem 1rem 2rem}
+      .content-wrap{padding:2rem 1rem}
+      .contact-box{padding:1.75rem 1.25rem}
+      .footer-top{gap:2rem}
+      .footer-bottom{flex-direction:column;align-items:flex-start}
+      .data-table{font-size:12px}
+      .data-table th,.data-table td{padding:8px 10px}
+    }
+    @media(max-width:480px){
+      .nav-link:not(.active){display:none}
+    }
+  </style>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- NAV -->
+<nav role="navigation" aria-label="Main navigation">
+  <a class="nav-logo" href="/" aria-label="Am I Being Scammed? — Home">
+    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M16 2 L28 6 L28 18 C28 24.5 22.5 29.5 16 31 C9.5 29.5 4 24.5 4 18 L4 6 Z" fill="#c0392b"/>
+      <polyline points="10,16 14,20.5 22,12" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <div class="nav-logo-text">
+      <span class="name">Am I Being Scammed?</span>
+      <span class="tagline">by Zenikhon Tech</span>
+    </div>
+  </a>
+  <div class="nav-links">
+    <a class="nav-link" href="/">Checker</a>
+    <a class="nav-link" href="/">Lookup</a>
+    <a class="nav-link" href="/">Database</a>
+    <a class="nav-link" href="/blog/">Guides</a>
+  </div>
+  <a class="nav-donate" href="https://ko-fi.com/zenikhontech" target="_blank" rel="noopener noreferrer" aria-label="Support us on Ko-fi">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.737.013-1.737.013V5.458c1.853-.868 4.702.498 4.702 3.055-.002 1.977-.739 3.222-2.965 3.424z"/></svg>
+    <span>Support us</span>
+  </a>
+</nav>
+
+<!-- HERO -->
+<header class="page-hero">
+  <div class="breadcrumb"><a href="/">Home</a> <span>›</span> <span>Privacy Policy</span></div>
+  <h1>Privacy Policy</h1>
+  <p class="deck">How we handle your data — written in plain English, not legal jargon</p>
+</header>
+
+<!-- CONTENT -->
+<main id="main" class="content-wrap">
+
+  <div class="last-updated">
+    🗓️ Last updated: <span>April 2026</span>
+  </div>
+
+  <div class="highlight-box green">
+    <div class="hb-icon">✅</div>
+    <div>
+      <strong>The short version</strong>
+      <p>We do not sell your data. We do not require an account. We store only a truncated, anonymous version of submitted messages for the public scam database. No passwords, no tracking beyond standard analytics, no third-party advertising.</p>
+    </div>
+  </div>
+
+  <!-- 1 -->
+  <div class="policy-section">
+    <h2>1. Who we are</h2>
+    <p>Am I Being Scammed? is a free AI-powered scam detection tool operated by <strong>Zenikhon Tech</strong>. The tool is available at <a href="https://scam-checker.netlify.app">scam-checker.netlify.app</a>. You can contact us at <a href="mailto:zenikhon@gmail.com">zenikhon@gmail.com</a> with any privacy-related questions.</p>
+  </div>
+
+  <!-- 2 -->
+  <div class="policy-section">
+    <h2>2. What data we collect</h2>
+    <p>We collect the minimum amount of data necessary to operate the tool. Here is exactly what happens when you use the site:</p>
+
+    <div class="data-table-wrap">
+      <table class="data-table">
+        <thead>
+          <tr><th>Data</th><th>What we collect</th><th>Why</th><th>How long</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Submitted message</strong></td><td>First 500 characters only, truncated and anonymised</td><td>To populate the public scam database so others can learn from real examples</td><td>Indefinitely, publicly visible</td></tr>
+          <tr><td><strong>AI verdict</strong></td><td>Verdict, confidence score, scam type, red flags, explanation</td><td>Stored alongside the truncated message in the public database</td><td>Indefinitely, publicly visible</td></tr>
+          <tr><td><strong>Community votes</strong></td><td>Upvote or downvote count per submission</td><td>To indicate verdict accuracy to future users</td><td>Indefinitely</td></tr>
+          <tr><td><strong>Analytics</strong></td><td>Page views, session data, general location (country/city level)</td><td>To understand how the tool is used and improve it</td><td>Per Google Analytics retention settings (default 14 months)</td></tr>
+          <tr><td><strong>Email (contact only)</strong></td><td>Only if you email us directly</td><td>To respond to your message</td><td>Until resolved or deleted on request</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="highlight-box red">
+      <div class="hb-icon">⚠️</div>
+      <div>
+        <strong>Never paste this into the tool</strong>
+        <p>Do not submit passwords, bank account numbers, Social Security or ID numbers, full credit card numbers, or any other sensitive personal information. The first 500 characters of your submission are saved to a publicly visible database.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3 -->
+  <div class="policy-section">
+    <h2>3. What we do NOT collect</h2>
+    <ul>
+      <li>We do not require you to create an account or provide your name or email address to use the tool</li>
+      <li>We do not store your full message — only the first 500 characters are saved</li>
+      <li>We do not use cookies for advertising or tracking beyond standard analytics</li>
+      <li>We do not sell, rent, or share your data with third parties for marketing purposes</li>
+      <li>We do not use your submitted messages to train AI models</li>
+      <li>We do not collect payment information — the tool is entirely free</li>
+    </ul>
+  </div>
+
+  <!-- 4 -->
+  <div class="policy-section">
+    <h2>4. Third-party services we use</h2>
+    <p>To operate this tool we use the following third-party services. Each has its own privacy policy.</p>
+
+    <h3>Groq (AI inference)</h3>
+    <p>Your submitted message is sent to Groq's API to be analysed by the Llama 3.3 AI model. Groq processes the message to generate a verdict and does not store it for training purposes under their standard API terms. See <a href="https://groq.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Groq's privacy policy</a>.</p>
+
+    <h3>Supabase (database)</h3>
+    <p>The truncated, anonymised submission and its verdict are stored in a Supabase PostgreSQL database hosted on AWS infrastructure. See <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">Supabase's privacy policy</a>.</p>
+
+    <h3>Netlify (hosting)</h3>
+    <p>The site is hosted on Netlify, which may collect standard server logs including IP addresses for security and performance purposes. See <a href="https://www.netlify.com/privacy/" target="_blank" rel="noopener noreferrer">Netlify's privacy policy</a>.</p>
+
+    <h3>Google Analytics</h3>
+    <p>We use Google Analytics (GA4) to understand how visitors use the site. This collects anonymised data including pages visited, time on site, and approximate geographic location. It does not identify you personally. You can opt out using the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">Google Analytics opt-out browser add-on</a>. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's privacy policy</a>.</p>
+
+    <h3>ScamSearch.io (lookup feature)</h3>
+    <p>If you use the Email/Phone Lookup tab, your search term is sent to the ScamSearch.io API to check their community database. See <a href="https://scamsearch.io/privacy" target="_blank" rel="noopener noreferrer">ScamSearch.io's privacy policy</a>.</p>
+  </div>
+
+  <!-- 5 -->
+  <div class="policy-section">
+    <h2>5. Cookies</h2>
+    <p>This site uses minimal cookies. We do not use advertising cookies or third-party tracking cookies. The only cookies present are those set by Google Analytics for anonymous usage measurement, and standard session cookies set by Netlify's infrastructure for security purposes.</p>
+    <p>You can disable cookies in your browser settings at any time. Doing so will not affect your ability to use the scam checking tool.</p>
+  </div>
+
+  <!-- 6 -->
+  <div class="policy-section">
+    <h2>6. The public scam database</h2>
+    <p>When you submit a message for analysis, the first 500 characters along with the AI verdict, scam type, confidence score, and red flags are saved to a publicly visible database accessible via the Scam Database tab on the site.</p>
+    <p>This is intentional — it allows other users to learn from real scam examples. Before submitting, please ensure the message you paste does not contain any personally identifying information about yourself or others, such as your name, phone number, address, or financial details.</p>
+    <p>If you would like a specific submission removed from the public database, contact us at <a href="mailto:zenikhon@gmail.com">zenikhon@gmail.com</a> and we will remove it promptly.</p>
+  </div>
+
+  <!-- 7 -->
+  <div class="policy-section">
+    <h2>7. Your rights</h2>
+    <p>Depending on where you are located, you may have the following rights regarding your data:</p>
+    <ul>
+      <li><strong>Right to access</strong> — you can request a copy of any personal data we hold about you</li>
+      <li><strong>Right to deletion</strong> — you can request that we delete any data associated with you, including any database submissions you made</li>
+      <li><strong>Right to correction</strong> — you can request that inaccurate data be corrected</li>
+      <li><strong>Right to object</strong> — you can object to the processing of your data in certain circumstances</li>
+      <li><strong>Right to data portability</strong> — you can request your data in a portable format</li>
+    </ul>
+    <p>To exercise any of these rights, email us at <a href="mailto:zenikhon@gmail.com">zenikhon@gmail.com</a>. We will respond within 30 days.</p>
+    <p>If you are located in the European Union or United Kingdom, these rights are granted under GDPR and UK GDPR respectively. If you are in California, you have additional rights under CCPA.</p>
+  </div>
+
+  <!-- 8 -->
+  <div class="policy-section">
+    <h2>8. Data security</h2>
+    <p>We take reasonable measures to protect the data we store. The database is hosted on Supabase with row-level security enabled. API keys and credentials are stored as environment variables and never exposed in client-side code. All connections to the site and its APIs are encrypted via HTTPS.</p>
+    <p>However, no system is completely secure. We recommend never submitting sensitive personal information through this tool.</p>
+  </div>
+
+  <!-- 9 -->
+  <div class="policy-section">
+    <h2>9. Children's privacy</h2>
+    <p>This tool is not directed at children under the age of 13. We do not knowingly collect personal data from children. If you believe a child has submitted personal information through this tool, contact us at <a href="mailto:zenikhon@gmail.com">zenikhon@gmail.com</a> and we will remove it immediately.</p>
+  </div>
+
+  <!-- 10 -->
+  <div class="policy-section">
+    <h2>10. Changes to this policy</h2>
+    <p>We may update this privacy policy from time to time to reflect changes in how the tool operates or to comply with legal requirements. When we do, we will update the "Last updated" date at the top of this page. We encourage you to review this page periodically.</p>
+    <p>Continued use of the tool after a policy update constitutes acceptance of the revised policy.</p>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="contact-box">
+    <h3>Privacy questions?</h3>
+    <p>If you have any questions about this privacy policy, want to request data deletion, or need to report a privacy concern, get in touch directly.</p>
+    <a class="contact-btn" href="mailto:zenikhon@gmail.com">zenikhon@gmail.com</a>
+  </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo-wrap">
+          <svg width="160" height="44" viewBox="0 0 160 44" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Zenikhon Tech">
+            <title>Zenikhon Tech</title>
+            <path d="M12 3 L22 7 L22 20 C22 26 17.5 30 12 32 C6.5 30 2 26 2 20 L2 7 Z" fill="#c0392b"/>
+            <path d="M12 3 L22 7 L22 20 C22 26 17.5 30 12 32 C6.5 30 2 26 2 20 L2 7 Z" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/>
+            <line x1="7" y1="12" x2="17" y2="12" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            <line x1="17" y1="12" x2="7" y2="21" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="7" y1="21" x2="17" y2="21" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            <text x="28" y="19" font-family="Inter,sans-serif" font-size="15" font-weight="700" fill="white" letter-spacing="0.5">ZENIKHON</text>
+            <text x="28" y="33" font-family="Inter,sans-serif" font-size="10" font-weight="400" fill="rgba(255,255,255,0.45)" letter-spacing="3">TECH</text>
+          </svg>
+        </div>
+        <p class="footer-tagline">Free AI Scam Checker by Zenikhon Tech — built to protect people from fraud, one message at a time.</p>
+        <a class="kofi-btn" href="https://ko-fi.com/zenikhontech" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.737.013-1.737.013V5.458c1.853-.868 4.702.498 4.702 3.055-.002 1.977-.739 3.222-2.965 3.424z"/></svg>
+          Support Zenikhon Tech on Ko-fi ☕
+        </a>
+      </div>
+      <div class="footer-links-col">
+        <h4>Tools</h4>
+        <a href="/">AI Scam Checker</a>
+        <a href="/">Email/Phone Lookup</a>
+        <a href="/">Scam Database</a>
+        <a href="/blog/">Guides &amp; Articles</a>
+      </div>
+      <div class="footer-links-col">
+        <h4>Report Fraud</h4>
+        <a href="https://reportfraud.ftc.gov" target="_blank" rel="noopener noreferrer">FTC ReportFraud</a>
+        <a href="https://www.ic3.gov" target="_blank" rel="noopener noreferrer">FBI IC3</a>
+        <a href="https://www.actionfraud.police.uk" target="_blank" rel="noopener noreferrer">Action Fraud (UK)</a>
+        <a href="https://www.scamwatch.gov.au" target="_blank" rel="noopener noreferrer">ScamWatch (AU)</a>
+      </div>
+      <div class="footer-links-col">
+        <h4>Legal</h4>
+        <a href="/privacy-policy.html">Privacy Policy</a>
+        <a href="mailto:zenikhon@gmail.com">Contact Us</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">
+        Free AI Scam Checker by Zenikhon Tech<br/>
+        &copy;2026 Zenikhon Tech. All rights reserved. Built with efficiency in mind.<br/>
+        <a href="mailto:zenikhon@gmail.com" style="color:rgba(255,255,255,0.35);font-size:12px;transition:color 0.15s;" onmouseover="this.style.color='rgba(255,255,255,0.7)'" onmouseout="this.style.color='rgba(255,255,255,0.35)'">zenikhon@gmail.com</a>
+      </div>
+      <div class="footer-bottom-links">
+        <a href="/privacy-policy.html">Privacy Policy</a>
+        <a href="https://consumer.ftc.gov/features/scam-alerts" target="_blank" rel="noopener noreferrer">FTC Alerts</a>
+        <a href="https://www.ic3.gov" target="_blank" rel="noopener noreferrer">FBI IC3</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
