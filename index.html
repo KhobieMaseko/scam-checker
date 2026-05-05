@@ -872,20 +872,19 @@ footer{background:var(--navy);padding:3rem 1.5rem 2rem;color:rgba(255,255,255,0.
 <!-- ── FOOTER ── -->
 <footer role="contentinfo">
   <div class="footer-inner">
+
+    <!-- Top row: brand + link columns -->
     <div class="footer-top">
+
       <div class="footer-brand">
         <div class="footer-logo-wrap" aria-label="Zenikhon Tech logo">
-          <!-- Zenikhon Tech SVG Logo -->
           <svg width="160" height="44" viewBox="0 0 160 44" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Zenikhon Tech logo">
             <title>Zenikhon Tech</title>
-            <!-- Shield mark -->
             <path d="M12 3 L22 7 L22 20 C22 26 17.5 30 12 32 C6.5 30 2 26 2 20 L2 7 Z" fill="#c0392b"/>
             <path d="M12 3 L22 7 L22 20 C22 26 17.5 30 12 32 C6.5 30 2 26 2 20 L2 7 Z" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/>
-            <!-- Z letterform inside shield -->
             <line x1="7" y1="12" x2="17" y2="12" stroke="white" stroke-width="2" stroke-linecap="round"/>
             <line x1="17" y1="12" x2="7" y2="21" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
             <line x1="7" y1="21" x2="17" y2="21" stroke="white" stroke-width="2" stroke-linecap="round"/>
-            <!-- Wordmark -->
             <text x="28" y="19" font-family="Inter,sans-serif" font-size="15" font-weight="700" fill="white" letter-spacing="0.5">ZENIKHON</text>
             <text x="28" y="33" font-family="Inter,sans-serif" font-size="10" font-weight="400" fill="rgba(255,255,255,0.45)" letter-spacing="3">TECH</text>
           </svg>
@@ -898,15 +897,15 @@ footer{background:var(--navy);padding:3rem 1.5rem 2rem;color:rgba(255,255,255,0.
           </a>
         </div>
       </div>
+
       <div class="footer-links-col">
         <h4>Tools</h4>
-        <button onclick="showTab('checker',null)" class="footer-links-col a" style="background:none;border:none;padding:0;cursor:pointer;display:block;font-size:13px;color:rgba(255,255,255,0.55);margin-bottom:8px;font-family:var(--font);text-align:left;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.55)'">AI Scam Checker</button>
+        <button onclick="showTab('checker',null)" style="background:none;border:none;padding:0;cursor:pointer;display:block;font-size:13px;color:rgba(255,255,255,0.55);margin-bottom:8px;font-family:var(--font);text-align:left;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.55)'">AI Scam Checker</button>
         <button onclick="showTab('lookup',null)" style="background:none;border:none;padding:0;cursor:pointer;display:block;font-size:13px;color:rgba(255,255,255,0.55);margin-bottom:8px;font-family:var(--font);text-align:left;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.55)'">Email/Phone Lookup</button>
         <button onclick="showTab('database',null)" style="background:none;border:none;padding:0;cursor:pointer;display:block;font-size:13px;color:rgba(255,255,255,0.55);margin-bottom:8px;font-family:var(--font);text-align:left;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.55)'">Scam Database</button>
         <a href="/blog/" style="display:block;font-size:13px;color:rgba(255,255,255,0.55);margin-bottom:8px;transition:color 0.15s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,0.55)'">Guides &amp; Articles</a>
-        </div>
-    </div>
       </div>
+
       <div class="footer-links-col">
         <h4>Report Fraud</h4>
         <a href="https://reportfraud.ftc.gov" target="_blank" rel="noopener noreferrer">FTC ReportFraud.gov</a>
@@ -914,6 +913,7 @@ footer{background:var(--navy);padding:3rem 1.5rem 2rem;color:rgba(255,255,255,0.
         <a href="https://www.actionfraud.police.uk" target="_blank" rel="noopener noreferrer">Action Fraud (UK)</a>
         <a href="https://www.scamwatch.gov.au/report-a-scam" target="_blank" rel="noopener noreferrer">ScamWatch (AU)</a>
       </div>
+
       <div class="footer-links-col">
         <h4>Resources</h4>
         <a href="https://consumer.ftc.gov/features/scam-alerts" target="_blank" rel="noopener noreferrer">FTC Scam Alerts</a>
@@ -921,24 +921,37 @@ footer{background:var(--navy);padding:3rem 1.5rem 2rem;color:rgba(255,255,255,0.
         <a href="https://consumer.ftc.gov/identity-theft" target="_blank" rel="noopener noreferrer">Identity Theft Help</a>
         <a href="https://www.aarp.org/money/scams-fraud/" target="_blank" rel="noopener noreferrer">AARP Fraud Watch</a>
       </div>
-    </div>
+
+    </div><!-- /footer-top -->
+
+    <!-- Bottom row: copyright + links + badges -->
     <div class="footer-bottom">
+
       <div class="footer-copy">
         Free AI Scam Checker by Zenikhon Tech<br/>
         &copy;2026 Zenikhon Tech. All rights reserved. Built with efficiency in mind.<br/>
         <a href="mailto:zenikhon@gmail.com" style="color:rgba(255,255,255,0.35);font-size:12px;transition:color 0.15s;" onmouseover="this.style.color='rgba(255,255,255,0.7)'" onmouseout="this.style.color='rgba(255,255,255,0.35)'">zenikhon@gmail.com</a>
       </div>
-      <div class="footer-bottom-links">
-        <a href="https://consumer.ftc.gov/features/scam-alerts" target="_blank" rel="noopener noreferrer">FTC Scam Alerts</a>
-        <a href="https://www.ic3.gov" target="_blank" rel="noopener noreferrer">Report to FBI IC3</a>
-        <a href="https://scamsearch.io" target="_blank" rel="noopener noreferrer">ScamSearch.io</a>
-        <a href="/privacy-policy.html">Privacy Policy</a>
+
+      <div style="display:flex;flex-direction:column;align-items:flex-end;gap:1rem;">
+        <div class="footer-bottom-links">
+          <a href="https://consumer.ftc.gov/features/scam-alerts" target="_blank" rel="noopener noreferrer">FTC Scam Alerts</a>
+          <a href="https://www.ic3.gov" target="_blank" rel="noopener noreferrer">Report to FBI IC3</a>
+          <a href="https://scamsearch.io" target="_blank" rel="noopener noreferrer">ScamSearch.io</a>
+          <a href="/privacy-policy.html">Privacy Policy</a>
+        </div>
+        <div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap;justify-content:flex-end;">
+          <a href="https://dang.ai/" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;opacity:0.65;transition:opacity 0.15s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.65'">
+            <img src="https://cdn.prod.website-files.com/63d8afd87da01fb58ea3fbcb/6487e2868c6c8f93b4828827_dang-badge.png" alt="Featured on Dang.ai" width="150" height="54" style="width:150px;height:54px;display:block;"/>
+          </a>
+          <a href="https://startupfa.me/s/zenikhon-tech?utm_source=scam-checker.netlify.app" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;opacity:0.65;transition:opacity 0.15s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.65'">
+            <img src="https://startupfa.me/badges/featured-badge-small.webp" alt="Scam Checker - Featured on Startup Fame" width="224" height="36" style="display:block;"/>
+          </a>
+        </div>
       </div>
+
     </div>
-    <a href="https://dang.ai/" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;opacity:0.7;transition:opacity 0.15s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.7'">
-        <img src="https://cdn.prod.website-files.com/63d8afd87da01fb58ea3fbcb/6487e2868c6c8f93b4828827_dang-badge.png" alt="Featured on Dang.ai" style="width:150px;height:54px;" width="150" height="54"/>
-    </a>
-    <a href="https://startupfa.me/s/zenikhon-tech?utm_source=scam-checker.netlify.app" target="_blank"><img src="https://startupfa.me/badges/featured-badge-small.webp" alt="Scam Checker - Featured on Startup Fame" width="224" height="36" /></a>
+
   </div>
 </footer>
 
