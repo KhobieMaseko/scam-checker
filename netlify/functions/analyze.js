@@ -125,6 +125,8 @@ exports.handler = async (event) => {
         red_flags: analysisResult.red_flags || [],
         safe_signals: analysisResult.safe_signals || [],
         explanation: analysisResult.explanation,
+        summary: analysisResult.summary || null,
+        what_to_do: analysisResult.what_to_do || [],
       })
       .select("id")
       .single();
