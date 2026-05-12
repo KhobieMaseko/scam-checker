@@ -1128,7 +1128,10 @@ async function castVote(direction) {
 }
 
 function updateShareLinks(verdict, scamType, confidence) {
-  const url = encodeURIComponent(window.location.href);
+  const resultUrl = currentSubmissionId
+    ? `${window.location.origin}/result.html?id=${currentSubmissionId}`
+    : window.location.href;
+  const url = encodeURIComponent(resultUrl);
   const type = (scamType || 'message').replace(/_/g, ' ');
   const verdictLabels = { scam: '🚨 SCAM', likely_scam: '⚠️ Likely scam', suspicious: '🟡 Suspicious', likely_safe: '✅ Likely safe' };
   const label = verdictLabels[verdict] || verdict;
@@ -1138,7 +1141,10 @@ function updateShareLinks(verdict, scamType, confidence) {
 }
 
 function copyResultLink() {
-  navigator.clipboard.writeText(window.location.href).then(() => {
+  const resultUrl = currentSubmissionId
+    ? `${window.location.origin}/result.html?id=${currentSubmissionId}`
+    : window.location.href;
+  navigator.clipboard.writeText(resultUrl).then(() => {
     const btn = document.getElementById('copy-link-btn');
     btn.textContent = '✅ Copied!';
     setTimeout(() => { btn.innerHTML = '🔗 Copy link'; }, 2000);
