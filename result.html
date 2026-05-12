@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EKDHHS4B08"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-EKDHHS4B08');
+  </script>
+  <meta name="google-site-verification" content="F1cxG1AMJ2VrGlol7q43ROb7DWYZ_tG9ieEibPt7Gy8" />
+  <meta name="_foundr" content="28fcfd4e37441e7bb12b47bb09aa926e">
+  <meta name="theme-color" content="#0f172a"/>
+  <title>Am I Being Scammed? — Free AI Scam Checker | Zenikhon Tech</title>
+  <meta name="description" content="Free AI-powered scam detector. Paste any suspicious message, email, job offer or text and get an instant verdict with red flags explained. Built by Zenikhon Tech."/>
+  <meta name="keywords" content="scam checker, is this a scam, scam detector, phishing checker, job scam, romance scam, AI fraud detection, free scam tool"/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://scam-checker.netlify.app/"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Am I Being Scammed? — Free AI Scam Checker"/>
+  <meta property="og:description" content="Paste any suspicious message and get an instant AI-powered scam verdict. Free, no sign-up required."/>
+  <meta property="og:image" content="/og-image.png"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Am I Being Scammed? Free AI Scam Checker"/>
+  <meta name="twitter:description" content="Instant AI scam detection. Paste any suspicious message, email or job offer for a verdict with red flags explained."/>
+  <meta name="twitter:image" content="https://scam-checker.netlify.app/og-image.png"/>
+  <link rel="icon" type="image/svg+xml" href="/scam_checker_logo_1.svg"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "name": "Am I Being Scammed? — Free AI Scam Checker",
+        "description": "Free AI-powered scam checker. Paste any suspicious message to get an instant fraud analysis with red flags and action steps.",
+        "url": "https://scam-checker.netlify.app",
+        "applicationCategory": "SecurityApplication",
+        "operatingSystem": "Web",
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+        "creator": {"@type": "Organization", "name": "Zenikhon Tech", "url": "https://ko-fi.com/zenikhontech"}
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I know if a message is a scam?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Paste the message into our free AI scam checker. It analyses the text for known scam patterns and returns a verdict with specific red flags and action steps within seconds."}
+          },
+          {
+            "@type": "Question",
+            "name": "Is this scam checker really free?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Yes. Am I Being Scammed? is completely free to use with no account required and no usage limits for standard analysis."}
+          },
+          {
+            "@type": "Question",
+            "name": "What types of scams can this tool detect?",
+            "acceptedAnswer": {"@type": "Answer", "text": "The tool detects phishing emails, job scams, romance scams, investment fraud, lottery scams, government impersonation, tech support scams, rental scams, advance-fee fraud, brand impersonation, and social engineering."}
+          },
+          {
+            "@type": "Question",
+            "name": "Is my message stored when I check it?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Only the first 500 characters are anonymously saved to a public scam database. Never paste passwords, bank details, or full personal information."}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#0f172a;
+  --navy-mid:#1e293b;
+  --navy-light:#334155;
+  --red:#c0392b;
+  --red-light:#fdf0ef;
+  --red-mid:#e8a09a;
+  --amber:#b7770d;
+  --amber-light:#fef9ec;
+  --green:#1a7a4a;
+  --green-light:#edfaf3;
+  --green-mid:#7ecba1;
+  --orange:#c05621;
+  --orange-light:#fff5ec;
+  --kofi:#ff5e5b;
+  --gray-50:#f8f8f6;
+  --gray-100:#f0efed;
+  --gray-200:#e2e1de;
+  --gray-400:#9c9b97;
+  --gray-500:#7c7b77;
+  --gray-600:#5c5b58;
+  --gray-700:#3d3c39;
+  --gray-800:#2c2b29;
+  --gray-900:#1a1918;
+  --font:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+  --r-sm:6px;--r-md:10px;--r-lg:16px;--r-xl:24px;
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--font);background:var(--gray-50);color:var(--gray-800);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--red);text-decoration:none}
+a:hover{text-decoration:underline}
+img{max-width:100%;height:auto}
+button{font-family:var(--font);cursor:pointer}
+
+/* SKIP LINK */
+.skip-link{position:absolute;top:-40px;left:0;background:var(--red);color:#fff;padding:8px 16px;z-index:9999;border-radius:0 0 var(--r-sm) 0;font-size:14px}
+.skip-link:focus{top:0}
+
+/* NAV — exact copy from index.html */
+nav{background:var(--navy);border-bottom:1px solid rgba(255,255,255,0.08);padding:0 1.5rem;display:flex;align-items:center;gap:1.5rem;height:60px;position:sticky;top:0;z-index:200}
+.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0}
+.nav-logo-text{display:flex;flex-direction:column;line-height:1.1}
+.nav-logo-text .name{font-size:19px;font-weight:700;color:#fff;letter-spacing:-0.01em}
+.nav-logo-text .tagline{font-size:10px;color:rgba(255,255,255,0.45);letter-spacing:0.08em;text-transform:uppercase}
+.nav-links{display:flex;gap:0.25rem;margin-left:auto;align-items:center}
+.nav-link{background:none;border:none;font-size:13px;color:rgba(255,255,255,0.6);padding:6px 12px;border-radius:var(--r-sm);transition:all 0.15s;white-space:nowrap;cursor:pointer;text-decoration:none;display:inline-block}
+.nav-link:hover{color:#fff;background:rgba(255,255,255,0.08);text-decoration:none}
+.nav-donate{display:flex;align-items:center;gap:6px;background:var(--kofi);color:#fff;font-size:12px;font-weight:600;padding:7px 14px;border-radius:99px;border:none;text-decoration:none;flex-shrink:0;transition:background 0.15s}
+.nav-donate:hover{background:#e04f4c;text-decoration:none;color:#fff}
+.nav-donate svg{width:14px;height:14px;flex-shrink:0}
+
+/* PAGE HERO */
+.result-hero{background:var(--navy);padding:3rem 1.5rem 2.5rem;text-align:center;position:relative;overflow:hidden}
+.result-hero::before{content:'';position:absolute;top:-60px;left:50%;transform:translateX(-50%);width:500px;height:500px;background:radial-gradient(circle,rgba(192,57,43,0.12) 0%,transparent 70%);pointer-events:none}
+.result-hero h1{font-size:clamp(1.5rem,4vw,2.25rem);font-weight:800;color:#fff;line-height:1.15;letter-spacing:-0.03em;position:relative;z-index:1}
+.result-hero p{font-size:14px;color:rgba(255,255,255,0.5);margin-top:0.5rem;position:relative;z-index:1}
+
+/* MAIN CONTAINER */
+.result-wrap{max-width:780px;margin:0 auto;padding:2.5rem 1.5rem}
+
+/* LOADING STATE */
+.loading-state{text-align:center;padding:4rem 1rem}
+.spinner{width:44px;height:44px;border:3px solid var(--gray-200);border-top-color:var(--red);border-radius:50%;animation:spin 0.75s linear infinite;margin:0 auto 1rem}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loading-text{font-size:15px;font-weight:500;color:var(--gray-700)}
+
+/* ERROR STATE */
+.error-state{background:var(--red-light);border:1px solid var(--red-mid);border-radius:var(--r-lg);padding:2rem;text-align:center}
+.error-state h2{font-size:18px;font-weight:700;color:var(--red);margin-bottom:0.5rem}
+.error-state p{font-size:14px;color:var(--gray-600);line-height:1.6}
+
+/* RESULT COMPONENTS — exact copy from index.html */
+.verdict-banner{border-radius:var(--r-lg);padding:1.5rem 1.75rem;margin-bottom:1.5rem;display:flex;align-items:flex-start;gap:1rem}
+.verdict-banner.scam{background:var(--red-light);border:1.5px solid var(--red-mid)}
+.verdict-banner.likely_scam{background:var(--orange-light);border:1.5px solid #f6ad6e}
+.verdict-banner.suspicious{background:var(--amber-light);border:1.5px solid #f0c060}
+.verdict-banner.likely_safe{background:var(--green-light);border:1.5px solid var(--green-mid)}
+.verdict-icon{font-size:2rem;flex-shrink:0;line-height:1}
+.verdict-body{flex:1;min-width:0}
+.verdict-title{font-size:1.125rem;font-weight:700;margin-bottom:0.25rem}
+.verdict-banner.scam .verdict-title{color:var(--red)}
+.verdict-banner.likely_scam .verdict-title{color:var(--orange)}
+.verdict-banner.suspicious .verdict-title{color:var(--amber)}
+.verdict-banner.likely_safe .verdict-title{color:var(--green)}
+.verdict-summary{font-size:14px;color:var(--gray-700);line-height:1.5}
+.conf-row{display:flex;align-items:center;gap:10px;margin-top:0.75rem}
+.conf-label{font-size:11px;color:var(--gray-500);white-space:nowrap}
+.conf-track{flex:1;height:6px;background:rgba(0,0,0,0.08);border-radius:3px;overflow:hidden}
+.conf-fill{height:100%;border-radius:3px;transition:width 0.8s ease}
+.verdict-banner.scam .conf-fill{background:var(--red)}
+.verdict-banner.likely_scam .conf-fill{background:var(--orange)}
+.verdict-banner.suspicious .conf-fill{background:#b7770d}
+.verdict-banner.likely_safe .conf-fill{background:var(--green)}
+.conf-pct{font-size:12px;font-weight:700;color:var(--gray-700);white-space:nowrap}
+.type-badge{display:inline-block;background:rgba(0,0,0,0.07);border-radius:99px;padding:2px 10px;font-size:12px;font-weight:500;color:var(--gray-700);margin-top:6px}
+.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1.5rem}
+.detail-card{background:#fff;border:1px solid var(--gray-200);border-radius:var(--r-md);padding:1.25rem}
+.detail-card-title{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;margin-bottom:0.75rem}
+.detail-card.flags .detail-card-title{color:var(--red)}
+.detail-card.safe .detail-card-title{color:var(--green)}
+.flag-list{list-style:none}
+.flag-list li{font-size:13px;color:var(--gray-700);padding:5px 0;border-bottom:1px solid var(--gray-100);display:flex;align-items:flex-start;gap:8px;line-height:1.5}
+.flag-list li:last-child{border-bottom:none}
+.fdot{width:6px;height:6px;border-radius:50%;flex-shrink:0;margin-top:5px}
+.detail-card.flags .fdot{background:var(--red)}
+.detail-card.safe .fdot{background:var(--green)}
+.expl-card{background:#fff;border:1px solid var(--gray-200);border-radius:var(--r-md);padding:1.25rem;margin-bottom:1.5rem}
+.expl-card h3{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--gray-500);margin-bottom:0.5rem}
+.expl-card p{font-size:14px;color:var(--gray-700);line-height:1.7}
+.todo-card{background:var(--gray-50);border:1px solid var(--gray-200);border-radius:var(--r-md);padding:1.25rem;margin-bottom:1.5rem}
+.todo-card h3{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;color:var(--gray-500);margin-bottom:0.75rem}
+.todo-list{list-style:none;counter-reset:todo}
+.todo-list li{counter-increment:todo;font-size:14px;color:var(--gray-700);padding:6px 0;display:flex;gap:10px;align-items:flex-start}
+.todo-list li::before{content:counter(todo);background:var(--red);color:#fff;width:20px;height:20px;border-radius:50%;font-size:11px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
+.vote-btn{display:flex;align-items:center;gap:6px;border:1px solid var(--gray-200);background:#fff;border-radius:var(--r-sm);padding:6px 14px;font-size:13px;color:var(--gray-700);transition:all 0.15s;cursor:pointer}
+.vote-btn:hover{background:var(--gray-100);border-color:var(--gray-400)}
+.vote-btn.voted-up{background:var(--green-light);border-color:var(--green-mid);color:var(--green)}
+.vote-btn.voted-down{background:var(--red-light);border-color:var(--red-mid);color:var(--red)}
+.btn-ghost{background:var(--gray-100);border:1px solid var(--gray-200);border-radius:var(--r-md);padding:0.5rem 1.25rem;font-size:13px;font-weight:500;color:var(--gray-700);transition:background 0.15s;cursor:pointer;text-decoration:none;display:inline-block}
+.btn-ghost:hover{background:var(--gray-200);text-decoration:none;color:var(--gray-700)}
+
+/* DATE STAMP */
+.result-meta{font-size:12px;color:var(--gray-400);margin-bottom:1.5rem;display:flex;align-items:center;gap:6px}
+
+/* CTA SECTION */
+.cta-section{background:var(--navy);border-radius:var(--r-xl);padding:2.5rem;text-align:center;margin-top:2.5rem}
+.cta-section h3{font-size:1.25rem;font-weight:800;color:#fff;margin-bottom:0.75rem;letter-spacing:-0.02em}
+.cta-section p{font-size:14px;color:rgba(255,255,255,0.6);max-width:400px;margin:0 auto 1.5rem;line-height:1.6}
+.cta-btn{display:inline-flex;align-items:center;gap:8px;background:var(--red);color:#fff;font-size:15px;font-weight:600;padding:0.875rem 2rem;border-radius:var(--r-lg);text-decoration:none;transition:background 0.15s,transform 0.1s}
+.cta-btn:hover{background:#a93226;color:#fff;text-decoration:none;transform:translateY(-1px)}
+
+/* FOOTER — exact copy from index.html */
+footer{background:var(--navy);padding:3rem 1.5rem 2rem;color:rgba(255,255,255,0.5)}
+.footer-inner{max-width:1100px;margin:0 auto}
+.footer-top{display:flex;align-items:flex-start;gap:3rem;flex-wrap:wrap;padding-bottom:2rem;border-bottom:1px solid rgba(255,255,255,0.1);margin-bottom:2rem}
+.footer-brand{flex:1;min-width:200px}
+.footer-logo-wrap{display:flex;align-items:center;gap:12px;margin-bottom:1rem}
+.footer-tagline{font-size:13px;color:rgba(255,255,255,0.45);line-height:1.6;max-width:280px}
+.footer-links-col{flex:1;min-width:140px}
+.footer-links-col h4{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:rgba(255,255,255,0.4);margin-bottom:1rem}
+.footer-links-col a{display:block;font-size:13px;color:rgba(255,255,255,0.55);margin-bottom:8px;transition:color 0.15s}
+.footer-links-col a:hover{color:#fff;text-decoration:none}
+.footer-donate{margin-top:1rem}
+.kofi-btn{display:inline-flex;align-items:center;gap:8px;background:var(--kofi);color:#fff;font-size:13px;font-weight:600;padding:10px 18px;border-radius:99px;border:none;text-decoration:none;transition:background 0.15s}
+.kofi-btn:hover{background:#e04f4c;color:#fff;text-decoration:none}
+.footer-bottom{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+.footer-copy{font-size:12px;color:rgba(255,255,255,0.3);line-height:1.6}
+.footer-bottom-links{display:flex;gap:1.25rem;flex-wrap:wrap;align-items:center}
+.footer-bottom-links a{font-size:12px;color:rgba(255,255,255,0.35);transition:color 0.15s}
+.footer-bottom-links a:hover{color:rgba(255,255,255,0.7);text-decoration:none}
+
+/* MOBILE */
+@media(max-width:768px){
+  nav{padding:0 1rem;gap:0.75rem}
+  .nav-logo-text .tagline{display:none}
+  .nav-links{gap:0}
+  .nav-link{padding:6px 8px;font-size:12px}
+  .nav-donate span{display:none}
+  .result-wrap{padding:1.5rem 1rem}
+  .detail-grid{grid-template-columns:1fr}
+  .cta-section{padding:1.75rem 1.25rem}
+  .footer-top{gap:2rem}
+  .footer-bottom{flex-direction:column;align-items:flex-start}
+}
+  </style>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- NAV — exact copy from index.html -->
+<nav role="navigation" aria-label="Main navigation">
+  <a class="nav-logo" href="/" aria-label="Am I Being Scammed? — Home">
+    <img src="/scam_checker_logo_1.svg" alt="Zenikhon Tech logo" width="32" height="32" style="flex-shrink:0;"/>
+    <div class="nav-logo-text">
+      <span class="name">Am I Being Scammed?</span>
+      <span class="tagline">by Zenikhon Tech</span>
+    </div>
+  </a>
+  <div class="nav-links">
+    <a class="nav-link" href="/">Checker</a>
+    <a class="nav-link" href="/">Lookup</a>
+    <a class="nav-link" href="/">Database</a>
+    <a class="nav-link" href="/blog/">Guides</a>
+  </div>
+  <a class="nav-donate" href="https://ko-fi.com/zenikhontech" target="_blank" rel="noopener noreferrer" aria-label="Support us on Ko-fi">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.737.013-1.737.013V5.458c1.853-.868 4.702.498 4.702 3.055-.002 1.977-.739 3.222-2.965 3.424z"/></svg>
+    <span>Support us</span>
+  </a>
+</nav>
+
+<!-- PAGE HERO -->
+<header class="result-hero">
+  <h1>🛡️ Scam Check Result</h1>
+  <p>Shared via Am I Being Scammed? — Free AI Scam Checker by Zenikhon Tech</p>
+</header>
+
+<!-- MAIN CONTENT -->
+<main id="main" class="result-wrap">
+
+  <!-- Loading state -->
+  <div class="loading-state" id="loading-state">
+    <div class="spinner"></div>
+    <p class="loading-text">Loading result…</p>
+  </div>
+
+  <!-- Error state (hidden by default) -->
+  <div class="error-state" id="error-state" style="display:none;">
+    <h2>Result not found</h2>
+    <p>This result may have expired or the link may be incorrect.<br/>
+    <a href="/" style="color:var(--red);font-weight:600;">Check a new message →</a></p>
+  </div>
+
+  <!-- Result (populated by JS) -->
+  <div id="result-output" style="display:none;"></div>
+
+</main>
+
+<!-- FOOTER — exact copy from index.html -->
+<footer role="contentinfo">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo-wrap" aria-label="Zenikhon Tech logo">
+          <svg width="160" height="44" viewBox="0 0 160 44" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Zenikhon Tech logo">
+            <title>Zenikhon Tech</title>
+            <path d="M12 3 L22 7 L22 20 C22 26 17.5 30 12 32 C6.5 30 2 26 2 20 L2 7 Z" fill="#c0392b"/>
+            <path d="M12 3 L22 7 L22 20 C22 26 17.5 30 12 32 C6.5 30 2 26 2 20 L2 7 Z" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="0.5"/>
+            <line x1="7" y1="12" x2="17" y2="12" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            <line x1="17" y1="12" x2="7" y2="21" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+            <line x1="7" y1="21" x2="17" y2="21" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            <text x="28" y="19" font-family="Inter,sans-serif" font-size="15" font-weight="700" fill="white" letter-spacing="0.5">ZENIKHON</text>
+            <text x="28" y="33" font-family="Inter,sans-serif" font-size="10" font-weight="400" fill="rgba(255,255,255,0.45)" letter-spacing="3">TECH</text>
+          </svg>
+        </div>
+        <p class="footer-tagline">Free AI Scam Checker by Zenikhon Tech — built to protect people from fraud, one message at a time.</p>
+        <div class="footer-donate">
+          <a class="kofi-btn" href="https://ko-fi.com/zenikhontech" target="_blank" rel="noopener noreferrer" aria-label="Support Zenikhon Tech on Ko-fi">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.737.013-1.737.013V5.458c1.853-.868 4.702.498 4.702 3.055-.002 1.977-.739 3.222-2.965 3.424z"/></svg>
+            Support Zenikhon Tech on Ko-fi ☕
+          </a>
+        </div>
+      </div>
+      <div class="footer-links-col">
+        <h4>Tools</h4>
+        <a href="/">AI Scam Checker</a>
+        <a href="/">Email/Phone Lookup</a>
+        <a href="/">Scam Database</a>
+        <a href="/blog/">Guides &amp; Articles</a>
+      </div>
+      <div class="footer-links-col">
+        <h4>Report Fraud</h4>
+        <a href="https://reportfraud.ftc.gov" target="_blank" rel="noopener noreferrer">FTC ReportFraud.gov</a>
+        <a href="https://www.ic3.gov" target="_blank" rel="noopener noreferrer">FBI IC3</a>
+        <a href="https://www.actionfraud.police.uk" target="_blank" rel="noopener noreferrer">Action Fraud (UK)</a>
+        <a href="https://www.scamwatch.gov.au/report-a-scam" target="_blank" rel="noopener noreferrer">ScamWatch (AU)</a>
+      </div>
+      <div class="footer-links-col">
+        <h4>Resources</h4>
+        <a href="https://consumer.ftc.gov/features/scam-alerts" target="_blank" rel="noopener noreferrer">FTC Scam Alerts</a>
+        <a href="https://www.ic3.gov/PSA" target="_blank" rel="noopener noreferrer">FBI Cyber Alerts</a>
+        <a href="https://consumer.ftc.gov/identity-theft" target="_blank" rel="noopener noreferrer">Identity Theft Help</a>
+        <a href="https://www.aarp.org/money/scams-fraud/" target="_blank" rel="noopener noreferrer">AARP Fraud Watch</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">
+        Free AI Scam Checker by Zenikhon Tech<br/>
+        &copy;2026 Zenikhon Tech. All rights reserved. Built with efficiency in mind.<br/>
+        <a href="mailto:zenikhon@gmail.com" style="color:rgba(255,255,255,0.35);font-size:12px;transition:color 0.15s;" onmouseover="this.style.color='rgba(255,255,255,0.7)'" onmouseout="this.style.color='rgba(255,255,255,0.35)'">zenikhon@gmail.com</a>
+      </div>
+      <div style="display:flex;flex-direction:column;align-items:flex-end;gap:1rem;">
+        <div class="footer-bottom-links">
+          <a href="https://consumer.ftc.gov/features/scam-alerts" target="_blank" rel="noopener noreferrer">FTC Scam Alerts</a>
+          <a href="https://www.ic3.gov" target="_blank" rel="noopener noreferrer">Report to FBI IC3</a>
+          <a href="https://scamsearch.io" target="_blank" rel="noopener noreferrer">ScamSearch.io</a>
+          <a href="/privacy-policy.html">Privacy Policy</a>
+        </div>
+        <div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap;justify-content:flex-end;">
+          <a href="https://dang.ai/" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;opacity:0.65;transition:opacity 0.15s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.65'">
+            <img src="https://cdn.prod.website-files.com/63d8afd87da01fb58ea3fbcb/6487e2868c6c8f93b4828827_dang-badge.png" alt="Featured on Dang.ai" width="150" height="54" style="width:150px;height:54px;display:block;"/>
+          </a>
+          <a href="https://startupfa.me/s/zenikhon-tech?utm_source=scam-checker.netlify.app" target="_blank" rel="noopener noreferrer" style="display:inline-flex;align-items:center;opacity:0.65;transition:opacity 0.15s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.65'">
+            <img src="https://startupfa.me/badges/featured-badge.webp" alt="Scam Checker - Featured on Startup Fame" width="171" height="54" style="display:block;"/>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+// ── STATE ────────────────────────────────────────────────────────────────────
+let currentSubmissionId = null;
+let hasVoted = false;
+
+// ── UTILS — exact copy from index.html ──────────────────────────────────────
+function escHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function timeAgo(iso){ const d=(Date.now()-new Date(iso))/1000; if(d<60)return'just now'; if(d<3600)return Math.floor(d/60)+'m ago'; if(d<86400)return Math.floor(d/3600)+'h ago'; return Math.floor(d/86400)+'d ago'; }
+
+// ── FETCH RESULT ─────────────────────────────────────────────────────────────
+async function loadResult() {
+  const id = new URLSearchParams(window.location.search).get('id');
+
+  if (!id) {
+    document.getElementById('loading-state').style.display = 'none';
+    document.getElementById('error-state').style.display = 'block';
+    return;
+  }
+
+  try {
+    const res = await fetch(`/.netlify/functions/get-result?id=${encodeURIComponent(id)}`);
+    const data = await res.json();
+
+    if (!res.ok || data.error || !data.verdict) {
+      throw new Error(data.error || 'Result not found');
+    }
+
+    // Update page title with verdict
+    const verdictMap = { scam: '🚨 SCAM', likely_scam: '⚠️ Likely Scam', suspicious: '🟡 Suspicious', likely_safe: '✅ Likely Safe' };
+    document.title = `${verdictMap[data.verdict] || 'Result'} — Am I Being Scammed? | Zenikhon Tech`;
+
+    currentSubmissionId = data.id;
+    renderResult(data);
+
+    document.getElementById('loading-state').style.display = 'none';
+    document.getElementById('result-output').style.display = 'block';
+
+  } catch (err) {
+    document.getElementById('loading-state').style.display = 'none';
+    document.getElementById('error-state').style.display = 'block';
+  }
+}
+
+// ── RENDER RESULT — same logic as index.html ─────────────────────────────────
+function renderResult(data) {
+  const icons   = { scam:'🚨', likely_scam:'⚠️', suspicious:'🟡', likely_safe:'✅' };
+  const titles  = { scam:'This is almost certainly a scam', likely_scam:'This looks like a scam', suspicious:'Suspicious — proceed with extreme caution', likely_safe:'No major red flags found' };
+
+  const redFlags    = (data.red_flags   ||[]).map(f=>`<li><span class="fdot" aria-hidden="true"></span>${escHtml(f)}</li>`).join('');
+  const safeSignals = (data.safe_signals||[]).map(f=>`<li><span class="fdot" aria-hidden="true"></span>${escHtml(f)}</li>`).join('');
+  const todos       = (data.what_to_do  ||[]).map(t=>`<li>${escHtml(t)}</li>`).join('');
+  const typeLabel   = (data.scam_type   ||'').replace(/_/g,' ');
+  const shareUrl    = window.location.href;
+
+  const html = `
+    <p class="result-meta">
+      🕐 Checked ${timeAgo(data.created_at)} &nbsp;·&nbsp; ${data.confidence||0}% confidence
+    </p>
+
+    <div class="verdict-banner ${data.verdict}" role="alert">
+      <div class="verdict-icon" aria-hidden="true">${icons[data.verdict]||'❓'}</div>
+      <div class="verdict-body">
+        <div class="verdict-title">${titles[data.verdict]||data.verdict}</div>
+        <div class="verdict-summary">${escHtml(data.summary||'')}</div>
+        ${data.scam_type ? `<span class="type-badge">${escHtml(typeLabel)}</span>` : ''}
+        <div class="conf-row">
+          <span class="conf-label">Confidence</span>
+          <div class="conf-track" role="progressbar" aria-valuenow="${data.confidence||0}" aria-valuemin="0" aria-valuemax="100">
+            <div class="conf-fill" id="conf-fill" style="width:0%"></div>
+          </div>
+          <span class="conf-pct">${data.confidence||0}%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="detail-grid">
+      <div class="detail-card flags">
+        <div class="detail-card-title">🚩 Red flags found</div>
+        <ul class="flag-list" aria-label="Red flags">
+          ${redFlags || '<li><span class="fdot" style="background:var(--gray-400)" aria-hidden="true"></span>No significant red flags identified</li>'}
+        </ul>
+      </div>
+      <div class="detail-card safe">
+        <div class="detail-card-title">✓ Reassuring signals</div>
+        <ul class="flag-list" aria-label="Safe signals">
+          ${safeSignals || '<li><span class="fdot" style="background:var(--gray-400)" aria-hidden="true"></span>No particularly reassuring signals found</li>'}
+        </ul>
+      </div>
+    </div>
+
+    <div class="expl-card">
+      <h3>Analysis</h3>
+      <p>${escHtml(data.explanation||'')}</p>
+    </div>
+
+    ${todos ? `
+    <div class="todo-card">
+      <h3>What you should do right now</h3>
+      <ol class="todo-list" aria-label="Action steps">${todos}</ol>
+    </div>` : ''}
+
+    <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+      <span style="font-size:13px;color:var(--gray-600);">Share this result:</span>
+      <a href="https://wa.me/?text=${encodeURIComponent('I just checked a suspicious message — here is the AI verdict: ' + shareUrl)}"
+        target="_blank" rel="noopener noreferrer"
+        style="display:inline-flex;align-items:center;gap:6px;background:#25D366;color:#fff;font-size:13px;font-weight:600;padding:6px 14px;border-radius:99px;text-decoration:none;">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Share on WhatsApp
+      </a>
+      <button onclick="navigator.clipboard.writeText('${shareUrl.replace(/'/g,"\\'")}').then(()=>{this.textContent='✅ Copied!';setTimeout(()=>this.textContent='🔗 Copy link',2000)})"
+        style="display:inline-flex;align-items:center;gap:6px;background:var(--gray-100);border:1px solid var(--gray-200);color:var(--gray-700);font-size:13px;font-weight:600;padding:6px 14px;border-radius:99px;cursor:pointer;font-family:var(--font);">
+        🔗 Copy link
+      </button>
+    </div>
+
+    <div style="display:flex;align-items:center;gap:1rem;margin-bottom:2rem;flex-wrap:wrap;">
+      <span style="font-size:13px;color:var(--gray-600);">Was this verdict accurate?</span>
+      <button class="vote-btn" id="vote-up" onclick="castVote('up')">👍 Yes, accurate</button>
+      <button class="vote-btn" id="vote-down" onclick="castVote('down')">👎 Not quite</button>
+    </div>
+
+    <div class="cta-section">
+      <h3>Got a suspicious message?</h3>
+      <p>Check any message, email, job offer, or text for free — instant AI verdict with red flags explained.</p>
+      <a class="cta-btn" href="/">Check a message now →</a>
+    </div>
+  `;
+
+  document.getElementById('result-output').innerHTML = html;
+
+  // Animate confidence bar after render
+  setTimeout(() => {
+    const fill = document.getElementById('conf-fill');
+    if (fill) fill.style.width = (data.confidence||0) + '%';
+  }, 150);
+}
+
+// ── VOTE ─────────────────────────────────────────────────────────────────────
+async function castVote(direction) {
+  if (hasVoted || !currentSubmissionId) return;
+  hasVoted = true;
+  const btn = document.getElementById('vote-' + direction);
+  if (btn) btn.classList.add('voted-' + direction);
+  try {
+    await fetch('/.netlify/functions/vote', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id: currentSubmissionId, vote: direction }),
+    });
+  } catch {}
+}
+
+// ── INIT ─────────────────────────────────────────────────────────────────────
+loadResult();
+</script>
+</body>
+</html>
